@@ -61,7 +61,13 @@ main div img {
   margin: 0;
   padding: 10px; }
 
-@media screen and (min-width: 413px) {
+.maps{
+  width: 65%;
+  height: 60%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 360px) {
   .grid-container1 {
     grid-template-columns: repeat(1, 1fr); }
   .grid_armapc {

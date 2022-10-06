@@ -28,6 +28,12 @@ body{
     ;
 }
 
+.maps{
+    width: 65%;
+    height: 60%;
+    object-fit: cover;
+  }
+
 @import "tipografia";
 
 @import "header";
